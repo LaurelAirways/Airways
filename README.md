@@ -32,3 +32,6 @@ Run Live Server:
 
 Right-click the index.html file in the file explorer and click Open with Live Server.
 This will launch your website on a local server, and you will be able to access it via a URL like http://127.0.0.1:5500/.
+
+
+The Website is live at https://aquamarine-ekaterina-35.tiiny.site/index.html

@@ -6,6 +6,15 @@
     <title>Airline Booking System</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Spotify Plugin at Bottom-Right */
+        .spotify-plugin {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000; /* Ensure it stays on top */
+        }
+    </style>
 </head>
 <body>
     <!-- Header -->
@@ -35,5 +44,10 @@
     <footer>
         <p>&copy; 2024 12A COE . All rights reserved.</p>
     </footer>
+
+    <!-- Spotify Plugin Embed -->
+    <div class="spotify-plugin">
+        <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M" width="300" height="300" frameborder="0" allowtransparency="false" allow="encrypted-media"></iframe>
+    </div>
 </body>
 </html>
